@@ -20,7 +20,7 @@ int main(void) {
         q++;
     } while (*p++ != '\0');
 
-    printf("%s\n", t);
+    printf("%s", t);
 
     return 0;
 }
