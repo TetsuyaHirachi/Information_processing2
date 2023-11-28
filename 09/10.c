@@ -16,17 +16,11 @@ int main(void) {
     q = t;
 
     do {
-        *q = *(p + i);
-        q + 1;
-        i++;
-        printf("p=%p,q=%p\n", p, q);
-        printf("%c,%c\n", *q, *(p + i));
-        printf("%d\n", i);
-    } while (*(p + i) != '\0');
+        *q = *p;
+        q++;
+    } while (*p++ != '\0');
 
     printf("%s\n", t);
-    printf("%s\n", s);
-    printf("%c.%c,%c", t[0], t[1], t[2]);
 
     return 0;
 }
