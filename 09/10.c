@@ -11,6 +11,7 @@ int main(void) {
     int i = 0;
     char s[256], t[256];
     char *p, *q;
+    printf("s:");
     scanf("%s", s);
     p = s;
     q = t;
@@ -21,7 +22,7 @@ int main(void) {
         q++;
     } while (*p++ != '\0');
 
-    printf("%s", t);
+    printf("t:%s", t);
 
     return 0;
 }
