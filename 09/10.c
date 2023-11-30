@@ -22,7 +22,7 @@ int main(void) {
         q++;
     } while (*p++ != '\0');
 
-    printf("t:%s", t);
+    printf("t:%s\n", t);
 
     return 0;
 }
