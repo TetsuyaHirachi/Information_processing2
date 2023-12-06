@@ -57,7 +57,7 @@ int main(void) {
         if (strcmp(key_name, "quit") != 0) {
             show(name, 5, search(name, 5, key_name));
         } else {
-            printf("終了します");
+            printf("終了します\n");
             break;
         }
     }
