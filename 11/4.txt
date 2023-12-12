@@ -1,0 +1,7 @@
+文字列を入力してください
+s:aiueo
+t:aiueo
+
+文字列を入力してください
+s:qwert
+t:qwert
